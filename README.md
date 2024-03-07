@@ -1,8 +1,8 @@
-# Mi Primer Proyecto
+# Blog de Juan David
 
-**El propósito de este proyecto es empezar a guardar y encaminar nuestros primeros pasos dentro de la programación.**
+**El propósito de este blog es que puedan conocer un poco más de quien soy yo, cuales han sido mis proyectos y repositorios en mi trayecto como programador**
 
-Importante tener en cuenta que estamos usando los siguientes aplicativos.
+Importante tener en cuenta que por el momento estamos usando los siguientes aplicativos.
 
 - Visual studio code
 - Git Bash
