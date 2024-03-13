@@ -10,7 +10,7 @@ Importante tener en cuenta que por el momento estamos usando los siguientes apli
 - Git hub desktop
 - Discord
 
-*Iremos publicando los avances a medida que vamos avanzando en la clase*
+_Iremos publicando los avances a medida que vamos avanzando en la clase_
 
 Autor: Juan David Meneses Suarez  
 :copyright: 2024
