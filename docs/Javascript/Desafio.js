@@ -5,12 +5,16 @@ console.log (Nombre)*/
 
 // Hacer un programa que salude por nombre, si no solo mostrar hola.
 
-/*const nombreusuario = prompt("Ingrese su nombre")
-if (true) {
-    document.write("hola,  " + nombreusuario + " eres el mejor!")
- else {
-    document.write ("Hola")*/
-
+/*const nombreusuario = prompt("Ingrese su nombre");
+if (!isNaN(nombreusuario)) {
+  document.write(`El valor no es un nombre, ingrese de nuevo`);
+} else {
+  if (nombreusuario) {
+    document.write(`Hola ${nombreusuario} eres un crack`);
+  } else {
+    document.write(`Hola`);
+  }
+}*/
 /*const entrada = prompt ("Ingresa tu nombre");
 console.log (entrada);
 
@@ -75,7 +79,7 @@ if (isNaN(numero)) {
 // Hacer un programa que reciba del usuario dos números y muestre cual es
 // el número mayor y cual es el número menor.
 
-const numero1 = Number(prompt("Ingrese su primer número"));
+/*const numero1 = Number(prompt("Ingrese su primer número"));
 const numero2 = Number(prompt("Ingrese su segundo número"));
 
 if (numero1 == numero2) {
@@ -86,4 +90,4 @@ if (numero1 == numero2) {
   document.write(
     `El segundo número ingresado ${numero2} es mayor que ${numero1}`
   );
-}
+}*/
