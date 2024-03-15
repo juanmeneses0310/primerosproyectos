@@ -1,0 +1,25 @@
+/* Comentarios en CSS */
+/*body {
+  background-color: yellow;
+}*/
+div,
+span {
+  color: orange;
+}
+/* Tipos de selectores */
+/*Tipo elemento*/
+p {
+  color: green;
+}
+/*Tipo ID*/
+#p1 {
+  color: red;
+}
+/*Tipo clase*/
+.texto-amarillo {
+  color: yellow;
+}
+/*Universal*/
+* {
+  color: blue;
+}
