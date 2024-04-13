@@ -62,17 +62,21 @@ document.write(`${nombre} ${apellido}`);
 // Hacer un programa que reciba del usuario un número y muestre si es cero
 // de otra manera que muestre si es positivo o si es negativo
 
-/*let numero = Number(prompt("Ingrese su número"));
-
-if (isNaN(numero)) {
-  document.write("El valor ingresado no es un número");
+/*let numero = prompt("Ingrese su número");
+if (numero === "") {
+  document.write("No ingresó ningún valor");
 } else {
-  if (numero == 0) {
-    document.write(`El número ingresado es igual a 0`);
-  } else if (numero > 0) {
-    document.write(`El número ingresado ${numero} es positivo`);
-  } else if (numero < 0) {
-    document.write(`El número ingresado ${numero} es negativo`);
+  numero = Number(numero);
+  if (isNaN(numero)) {
+    document.write("El valor ingresado no es un número");
+  } else {
+    if (numero == 0) {
+      document.write(`El número ingresado es igual a 0`);
+    } else if (numero > 0) {
+      document.write(`El número ingresado ${numero} es positivo`);
+    } else if (numero < 0) {
+      document.write(`El número ingresado ${numero} es negativo`);
+    }
   }
 }*/
 
@@ -91,3 +95,31 @@ if (numero1 == numero2) {
     `El segundo número ingresado ${numero2} es mayor que ${numero1}`
   );
 }*/
+
+/*const numero = parseInt(prompt("Ingrese un número"));
+for (let i = 1; i <= numero; i++) {
+  document.write(i);
+}*/
+
+//Hacer un programa donde se pida un número a un usuario y se muestre unicamente los números pares hasta el número ingresado//
+
+/*const Numeroingresado = Number(prompt("Ingrese un número"));
+for (let i = 0; i <= Numeroingresado; i++)
+  if (i % 2 === 0) {
+    document.write(i + " ");
+  }*/
+
+//Hacer un programa que solicite al usuario un número de 0 a 6 (manejar errores) mostrar el día de la semana correspondiente según arreglo "días"
+
+const Miarreglo = [
+  "domingo",
+  "lunes",
+  "martes",
+  "miercoles",
+  "jueves",
+  "viernes",
+  "sabado",
+];
+const numeroingresado = Number(prompt("Ingrese un número"));
+
+// Hacer un programa que solicite al usuario un día de la semana y le retorne su nombre en ingles

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required /> <br />
+      <label>Apellido:<input type="text" /></label> <br />
+      <label>Edad <input type="number" /></label><br />
+      <label>Teléfono <input type="tel" /></label><br />
+      <label>Web <input type="url" /></label><br />
+      <input type="email" placeholder="Correo electrónico" />
+      <input type="password" placeholder="password" /><br />
+      <div>
+        <input type="radio" name="genero" value="femenino" id="mujer" />
+        <label for="mujer">Femenino</label>
+        <input type="radio" name="genero" value="masculino" id="hombre" />
+        <label for="hombre">Masculino</label>
+      </div>
+      <div>
+        <input type="checkbox" id="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" />
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" />
+        <label for="js">JS</label>
+      </div>
+      <input type="file" placeholder="File" /><br />
+      <input type="search" placeholder="Término a buscar" /><br />
+      <br />
+      <input type="date" /> <br />
+      <input type="time" /> <br />
+      <input type="color" /> <br />
+      <label>
+        Volumen (entre 0 y 5)<input type="range" min="0" max="5" />
+        <br /> </label
+      ><br />
+      <label>
+        <select name="paises">
+          <option value="co">Colombia</option>
+          <option value="ve">Venezuela</option>
+          <option value="ec">Ecuador</option>
+          <option value="br">Brasil</option>
+          <option value="ar">Argentina</option>
+        </select> </label
+      ><br />
+      <textarea cols="10" rows="10" placeholder="Escriba su mensaje"></textarea
+      ><br />
+      <div>
+        <input list="frameworks" />
+        <datalist id="frameworks">
+          <option value="react">react</option>
+          <option value="angular">angular</option>
+          <option value="svelte">svelte</option>
+          <option value="vue">vue</option>
+        </datalist>
+      </div>
+      <input type="submit" value="Enviar input" />
+      <input type="reset" value="Limpiar" />
+      <button>Enviar Boton</button>
+    </form>
+  </body>
+</html>
